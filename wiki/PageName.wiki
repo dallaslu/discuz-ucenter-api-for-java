@@ -3,7 +3,7 @@
 		Client e = new Client();
 		String result = e.uc_user_login("liangping2", "liangping");
 		
-		LinkedList<String> rs = XMLHelper.uc_unserialize(result);
+		LinkedList &lt;String>; rs = XMLHelper.uc_unserialize(result);
 		if(rs.size()>0){
 			int $uid = Integer.parseInt(rs.get(0));
 			String $username = rs.get(1);
