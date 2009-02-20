@@ -1,0 +1,8 @@
+#summary logout by using ucenter client
+
+		Client uc = new Client();
+
+		//setcookie('Example_auth', '', -86400);
+//		生成同步退出的代码
+		String $ucsynlogout = uc.uc_user_synlogout();
+		System.out.println("退出成功"+$ucsynlogout);
