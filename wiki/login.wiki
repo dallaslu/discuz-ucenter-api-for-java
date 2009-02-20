@@ -1,6 +1,6 @@
 		
 		Client e = new Client();
-		String result = e.uc_user_login("liangping2", "liangping");
+		String result = e.uc_user_login("username", "password");
 		
 		LinkedList[String> rs = XMLHelper.uc_unserialize(result);
 		if(rs.size()>0){
