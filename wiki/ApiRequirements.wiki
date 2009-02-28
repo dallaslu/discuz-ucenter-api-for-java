@@ -1,0 +1,7 @@
+#summary 运行环境介绍
+
+= Introduction =
+
+JRE：jdk 1.5以上
+操作系统：Windows, Linux, Unix等等
+UCenter：1.5+
