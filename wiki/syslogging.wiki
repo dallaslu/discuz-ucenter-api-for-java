@@ -1,4 +1,4 @@
-#同步登陆的方法
+#summary 同步登陆的方法
 
 = Introduction =
 
